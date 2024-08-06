@@ -46,4 +46,4 @@ Feature: Registro de Dueños de Mascotas
     
     Examples:
       | City        | Telephone   |
-      | Montevideo  | 0987654321  |
+      | Araminda  | 097482421  |
