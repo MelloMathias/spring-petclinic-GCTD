@@ -132,7 +132,7 @@ public class OwnerSteps {
 		site.navBar.findOwners();
 	}
 
-	@Then("el sistema debería dirigir a la pantalla de informacion del dueño")
+	@Then("el sistema debería dirigir a la pantalla de detalles del dueño de mascota")
 	public void owmerInfoCheckTitle() {
 		site.navBar.checkTitle(OWNER_DETAILS_TITLE);
 	}
@@ -142,17 +142,17 @@ public class OwnerSteps {
 		site.ownerList.findOwner();
 	}
 
-	@When("el veterinario hace clic en el botón Edit Owner")
+	@When("el veterinario hace click en el botón Edit Owner")
 	public void editOwner() {
 		site.ownerDetails.editOwners();
 	}
 
-	@Then("el sistema debería dirigir a la pantalla de detalles del dueño de mascota")
+	@Then("el sistema debería dirigir a la pantalla del dueño")
 	public void owmerCheckTitle() {
 		site.navBar.checkTitle(OWNER_FORM_TITLE);
 	}
 
-	@When("el veterinario hace clic en el botón Update Owner")
+	@When("el veterinario hace click en el botón Update Owner")
 	public void updateOwner() {
 		site.ownerDetails.updateOwners();
 	}
